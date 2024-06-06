@@ -1,20 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Formulário FIAP</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <form id="groupForm">
-      <input type="text" id="name1" placeholder="Nome do membro 1" />
-      <input type="text" id="name2" placeholder="Nome do membro 2" />
-      <input type="text" id="name3" placeholder="Nome do membro 3" />
-      <input type="text" id="name4" placeholder="Nome do membro 4" />
-      <input type="text" id="name5" placeholder="Nome do membro 5" />
-      <textarea id="story" placeholder="História do grupo"></textarea>
-      <button type="submit">Enviar</button>
-    </form>
-    <script src="script.js"></script>
+    <div class="banner">
+      <div>
+        <h1>POSTECH - FULLSTACK</h1>
+        <h2>Desafio Aula Inaugural</h2>
+      </div>
+    </div>
+
+    <div class="form-container">
+      <h3>Informações do Grupo</h3>
+      <form id="groupForm">
+        <div class="form-group">
+          <label for="nome">Nome:</label>
+          <input type="text" id="name1" required />
+        </div>
+        <div class="form-group">
+          <label for="nome">Nome:</label>
+          <input type="text" id="name2" required />
+        </div>
+        <div class="form-group">
+          <label for="nome">Nome:</label>
+          <input type="text" id="name3" required />
+        </div>
+        <div class="form-group">
+          <label for="nome">Nome:</label>
+          <input type="text" id="name4" required />
+        </div>
+        <div class="form-group">
+          <label for="nome">História do Grupo:</label>
+          <input type="text" id="story" required />
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
   </body>
 </html>
