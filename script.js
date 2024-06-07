@@ -6,7 +6,6 @@ document.getElementById("groupForm").addEventListener("submit", function (e) {
     document.getElementById("name2").value,
     document.getElementById("name3").value,
     document.getElementById("name4").value,
-    document.getElementById("name5").value,
   ];
 
   var story = document.getElementById("story").value;
